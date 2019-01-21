@@ -6,7 +6,12 @@ export class Firebase {
     constructor(){
 
         this._config = {
-            //FIREBASE HERE
+            apiKey: "AIzaSyBXw26QT4F3osS1cj8bX2yxaZWjgH2ExGk",
+            authDomain: "whatsapp-clone-72fbe.firebaseapp.com",
+            databaseURL: "https://whatsapp-clone-72fbe.firebaseio.com",
+            projectId: "whatsapp-clone-72fbe",
+            storageBucket: "whatsapp-clone-72fbe.appspot.com",
+            messagingSenderId: "1008860183655"
         };
 
         this.init();
